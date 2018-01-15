@@ -8,6 +8,13 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+    <dependencies>
+        <dependency>
+            <groupId>com.sun.study</groupId>
+            <artifactId>security-core</artifactId>
+            <version>${security.version}</version>
+        </dependency>
+    </dependencies>
 
     <artifactId>security-app</artifactId>
 

@@ -10,6 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>security-demo</artifactId>
-
+    <dependencies>
+        <dependency>
+            <groupId>com.sun.study</groupId>
+            <artifactId>security-browser</artifactId>
+            <version>${security.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
