@@ -13,7 +13,7 @@ import org.springframework.social.connect.ConnectionFactory;
  * @author sunjian.
  */
 @Configuration
-@ConditionalOnProperty(prefix = "com.sun.security.core.social.qq",name = "app-id")
+@ConditionalOnProperty(prefix = "com.sun.security.social.qq",name = "app-id") // com.sun.security.social.qq.app-id有值才会进行下面的配置
 public class QQAutoConfig extends SocialAutoConfigurerAdapter
 {
     private final SecurityProperties securityProperties;
